@@ -160,10 +160,11 @@ def installer():
         location = input("Name your root folder: ")
         if location:
             make_paths(location)
-            print("Path created!")
+            print("Root named," loccation)
             break
         else:
-            print("[ERROR] Enter a name: ")
+            print("Root named PyTextOS")
+            break
     os.system('cls' if os.name == 'nt' else 'clear')
     pc_name = input("Name your computer: ").strip()
     confirm_name = input("Confirm your computer name: ")
